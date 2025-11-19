@@ -19,12 +19,12 @@ namespace EmployeeDashboardApi.Data
                     Name = "Md. Radwanul Hoque Rafi",
                     Department = "Engineering",
                     Role = "Software Engineer",
-                    JoiningDate = new DateTime(2022, 2, 13),
+                    JoiningDate = new DateTime(2023, 2, 07, 0, 0, 0, DateTimeKind.Utc),
                     Status = "Active",
                     PerformanceScore = 93,
-                    //IsArchived = false,
-                    //CreatedAt = DateTime.UtcNow,
-                    //UpdatedAt = DateTime.UtcNow
+                    IsArchived = false,
+                    CreatedAt = new DateTime(2023, 2, 07, 0, 0, 0, DateTimeKind.Utc),
+                    UpdatedAt = new DateTime(2023, 2, 07, 0, 0, 0, DateTimeKind.Utc)
                 },
                 new Employee
                 {
@@ -32,12 +32,12 @@ namespace EmployeeDashboardApi.Data
                     Name = "Anonnya Chowdhury",
                     Department = "Finance",
                     Role = "Finance Secretary",
-                    JoiningDate = new DateTime(2021, 6, 1),
+                    JoiningDate = new DateTime(2021, 6, 1,0,0,0,DateTimeKind.Utc),
                     Status = "Active",
                     PerformanceScore = 90,
-                    //IsArchived = false,
-                    //CreatedAt = DateTime.UtcNow,
-                    //UpdatedAt = DateTime.UtcNow
+                    IsArchived = false,
+                    CreatedAt = new DateTime(2021, 6, 1, 0, 0, 0, DateTimeKind.Utc),
+                    UpdatedAt = new DateTime(2021, 6, 1, 0, 0, 0, DateTimeKind.Utc)
                 }
             );
         }
